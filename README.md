@@ -6,8 +6,8 @@ English | [简体中文](README_cn.md)
 |:--------------:|:-----:|:----------:| :-------:|:--------------------------:|:---------------------------:|:---------:|:--------:| :---------------------: |:------------------------------------------------------------------------------------:|:-------------------------------------------:|:---|
 | RT-DETRv3-R18 | 6x |  ResNet-18 | 640 | 48.0 | 65.6 | 20 | 60 | 217 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r18vd_6x_coco.yml) | [rtdetrv3_r18vd_6x_coco_log.txt]()
 **Notes:**
-- RT-DETR uses 4 GPUs for training.
-- RT-DETR was trained on COCO train2017 and evaluated on val2017.
+- RT-DETRv3 uses 4 GPUs for training.
+- RT-DETRv3 was trained on COCO train2017 and evaluated on val2017.
 
 ## Quick start
 
