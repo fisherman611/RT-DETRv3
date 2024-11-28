@@ -132,6 +132,8 @@ trtexec --onnx=./rtdetrv3_r18vd_6x_coco.onnx \
         --avgRuns=100 \
         --fp16
 ```
+-
+</details>
 
 ## Citation
 
@@ -145,6 +147,3 @@ If you find RT-DETRv3 useful in your research, please consider giving a star ⭐
   year={2024}
 }
 ```
-
--
-</details>
