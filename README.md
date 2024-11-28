@@ -133,5 +133,18 @@ trtexec --onnx=./rtdetrv3_r18vd_6x_coco.onnx \
         --fp16
 ```
 
+## Citation
+
+If you find RT-DETRv3 useful in your research, please consider giving a star ⭐ and citing:
+
+```
+@article{wang2024rt,
+  title={RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision},
+  author={Wang, Shuo and Xia, Chunlong and Lv, Feng and Shi, Yifeng},
+  journal={arXiv preprint arXiv:2409.08475},
+  year={2024}
+}
+```
+
 -
 </details>
