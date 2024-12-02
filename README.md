@@ -4,10 +4,22 @@ English | [简体中文](README_cn.md)
 
 | Model | Epoch | Backbone  | Input shape | $AP^{val}$ | $AP^{val}_{50}$| Params(M) | FLOPs(G) |  T4 TensorRT FP16(FPS) | Weight | Config | Log
 |:--------------:|:-----:|:----------:| :-------:|:--------------------------:|:---------------------------:|:---------:|:--------:| :---------------------: |:------------------------------------------------------------------------------------:|:-------------------------------------------:|:---|
-| RT-DETRv3-R18 | 6x |  ResNet-18 | 640 | 48.0 | 65.6 | 20 | 60 | 217 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r18vd_6x_coco.yml) | [rtdetrv3_r18vd_6x_coco_log.txt]()
+| RT-DETRv3-R18 | 6x |  ResNet-18 | 640 | 48.1 | 66.2 | 20 | 60 | 217 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r18vd_6x_coco.yml) | [rtdetrv3_r18vd_6x_coco_log.txt]()
+| RT-DETRv3-R34 | 6x |  ResNet-34 | 640 | 49.9 | 67.7 | 31 | 92 | 161 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r34vd_6x_coco.yml) | [rtdetrv3_r34vd_6x_coco_log.txt]()
+| RT-DETRv3-R50 | 6x |  ResNet-50 | 640 | 53.4 | 71.7 | 42 | 136 | 108 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r50vd_6x_coco.yml) | [rtdetrv3_r50vd_6x_coco_log.txt]()
+| RT-DETRv3-R101 | 6x |  ResNet-101 | 640 | 54.6 | 73.1 | 76 | 259 | 74 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r101vd_6x_coco.yml) | [rtdetrv3_r101vd_6x_coco_log.txt]()
+
 **Notes:**
 - RT-DETRv3 uses 4 GPUs for training.
 - RT-DETRv3 was trained on COCO train2017 and evaluated on val2017.
+
+## Model Zoo on LVIS
+
+| Model | Epoch | Backbone  | Input shape | AP | APr | APc | APf | Weight | Config | Log
+|:--------------:|:-----:|:----------:| :-------:|:--------------------------:|:---------------------------:|:---------:|:--------:| :---------------------: |:------------------------------------------------------------------------------------:|:-------------------------------------------:|:---|
+| RT-DETRv3-R18 | 6x |  ResNet-18 | 640 | 36.5 | 12.5 | 24.3 | 35.2 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r18vd_6x_lvis.yml) | [rtdetrv3_r18vd_6x_lvis_log.txt]()
+| RT-DETRv3-R50 | 6x |  ResNet-50 | 640 | 33.9 | 20.2 | 32.5 | 41.5 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r50vd_6x_lvis.yml) | [rtdetr_r34vd_dec4_6x_lvis_log.txt]()
+
 
 ## Quick start
 

@@ -6,14 +6,14 @@ _BASE_: [
   '_base_/rtdetr_reader.yml',
 ]
 
-weights: output/rtdetrv3_r18vd_6x_coco/model_final
+weights: output/rtdetrv3_r34vd_6x_coco/model_final
 find_unused_parameters: True
 log_iter: 200
 
 o2m_branch: True
 num_queries_o2m: 450
 
-pretrain_weights: https://paddledet.bj.bcebos.com/models/pretrained/ResNet18_vd_pretrained.pdparams
+pretrain_weights: https://bj.bcebos.com/v1/paddledet/models/pretrained/ResNet34_vd_pretrained.pdparams
 
 RTDETRV3:
   backbone: ResNet
@@ -24,7 +24,7 @@ RTDETRV3:
   post_process: DETRPostProcess
   
 ResNet:
-  depth: 18
+  depth: 34
   variant: d
   return_idx: [1, 2, 3]
   freeze_at: -1
@@ -47,7 +47,7 @@ HybridEncoder:
 
 RTDETRTransformerv3:
   eval_idx: -1
-  num_decoder_layers: 3
+  num_decoder_layers: 4
   num_noises: 3
   num_noise_queries: [300, 300, 300]
   num_noise_denoising: 100

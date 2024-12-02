@@ -6,7 +6,7 @@ _BASE_: [
   '_base_/rtdetr_reader.yml',
 ]
 
-weights: output/rtdetr_r18_6x_coco/model_final
+weights: output/rtdetrv3vd_r18_6x_lvis/model_final
 find_unused_parameters: True
 log_iter: 200
 
@@ -52,14 +52,3 @@ RTDETRTransformerv3:
   num_noise_queries: [300, 300]
   num_noise_denoising: 100
   learnt_init_query: False
-
-DINOv3Head:
-  o2m: 4
-  loss:
-    name: DINOv3Loss
-    loss_coeff: {class: 1, bbox: 5, giou: 2}
-    aux_loss: True
-    use_vfl: True
-    matcher:
-      name: HungarianMatcher
-      matcher_coeff: {class: 2, bbox: 5, giou: 2}
