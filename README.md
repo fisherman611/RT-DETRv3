@@ -18,8 +18,8 @@ English | [简体中文](README_cn.md)
 
 | Model | Epoch | Backbone  | Input shape | AP | APr | APc | APf | Weight | Config | Log
 |:--------------:|:-----:|:----------:| :-------:|:--------------------------:|:---------------------------:|:---------:| :---------------------: |:------------------------------------------------------------------------------------:|:-------------------------------------------:|:---|
-| RT-DETRv3-R18 | 6x |  ResNet-18 | 640 | 26.5 | 12.5 | 24.3 | 35.2 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r18vd_6x_lvis.yml) | 
-| RT-DETRv3-R50 | 6x |  ResNet-50 | 640 | 33.9 | 20.2 | 32.5 | 41.5 | [download]() | [config](./configs/rtdetrv3/rtdetrv3_r50vd_6x_lvis.yml) |
+| RT-DETRv3-R18 | 6x |  ResNet-18 | 640 | 26.5 | 12.5 | 24.3 | 35.2 |  | [config](./configs/rtdetrv3/rtdetrv3_r18vd_6x_lvis.yml) | 
+| RT-DETRv3-R50 | 6x |  ResNet-50 | 640 | 33.9 | 20.2 | 32.5 | 41.5 |  | [config](./configs/rtdetrv3/rtdetrv3_r50vd_6x_lvis.yml) |
 
 
 ## Quick start
