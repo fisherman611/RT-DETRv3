@@ -2,7 +2,7 @@ English | [简体中文](README_cn.md)
 
 ## RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision
 
-:fire::fire:**[WACV 2025]** The official implementation of the paper "[RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision](https://arxiv.org/pdf/2409.08475)"
+:fire::fire:**[WACV 2025 Oral]** The official implementation of the paper "[RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision](https://arxiv.org/pdf/2409.08475)"
 
 ## Model Zoo on COCO
 
