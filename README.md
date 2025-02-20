@@ -9,9 +9,9 @@ English | [简体中文](README_cn.md)
 
 | Model | Epoch | Backbone  | Input shape | $AP^{val}$ | $AP^{val}_{50}$| Params(M) | FLOPs(G) |  T4 TensorRT FP16(FPS) | Weight | Config | Log
 |:--------------:|:-----:|:----------:| :-------:|:--------------------------:|:---------------------------:|:---------:|:--------:| :---------------------: |:------------------------------------------------------------------------------------:|:-------------------------------------------:|:---|
-| RT-DETRv3-R18 | 6x |  ResNet-18 | 640 | 48.1 | 66.2 | 20 | 60 | 217 | baidu [download](https://pan.baidu.com/s/1s7lyT6_fHmczoegQZXdX-w?pwd=54jp) | [config](./configs/rtdetrv3/rtdetrv3_r18vd_6x_coco.yml) | 
-| RT-DETRv3-R34 | 6x |  ResNet-34 | 640 | 49.9 | 67.7 | 31 | 92 | 161 | [download](https://pan.baidu.com/s/1VCg6oqNVF9_ZZdmlhUBgSA?pwd=pi32) | [config](./configs/rtdetrv3/rtdetrv3_r34vd_6x_coco.yml) | 
-| RT-DETRv3-R50 | 6x |  ResNet-50 | 640 | 53.4 | 71.7 | 42 | 136 | 108 | [download](https://pan.baidu.com/s/1DuvrpMIqbU5okoDp16C94g?pwd=wrxy) | [config](./configs/rtdetrv3/rtdetrv3_r50vd_6x_coco.yml) | 
+| RT-DETRv3-R18 | 6x |  ResNet-18 | 640 | 48.1 | 66.2 | 20 | 60 | 217 | [baidu 网盘](https://pan.baidu.com/s/1s7lyT6_fHmczoegQZXdX-w?pwd=54jp) | [config](./configs/rtdetrv3/rtdetrv3_r18vd_6x_coco.yml) | 
+| RT-DETRv3-R34 | 6x |  ResNet-34 | 640 | 49.9 | 67.7 | 31 | 92 | 161 | [baidu 网盘](https://pan.baidu.com/s/1VCg6oqNVF9_ZZdmlhUBgSA?pwd=pi32) | [config](./configs/rtdetrv3/rtdetrv3_r34vd_6x_coco.yml) | 
+| RT-DETRv3-R50 | 6x |  ResNet-50 | 640 | 53.4 | 71.7 | 42 | 136 | 108 | [baidu 网盘](https://pan.baidu.com/s/1DuvrpMIqbU5okoDp16C94g?pwd=wrxy) | [config](./configs/rtdetrv3/rtdetrv3_r50vd_6x_coco.yml) | 
 | RT-DETRv3-R101 | 6x |  ResNet-101 | 640 | 54.6 | 73.1 | 76 | 259 | 74 |  | [config](./configs/rtdetrv3/rtdetrv3_r101vd_6x_coco.yml) | 
 
 
