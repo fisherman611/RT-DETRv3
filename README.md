@@ -4,6 +4,8 @@ English | [简体中文](README_cn.md)
 
 :fire::fire:**[WACV 2025 Oral]** The official implementation of the paper "[RT-DETRv3: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision](https://arxiv.org/pdf/2409.08475)". \
 [[`arXiv`](https://arxiv.org/pdf/2409.08475)] 
+![image](https://github.com/user-attachments/assets/5910d729-cc44-49f4-b404-b6631576930f)
+
 
 ## Model Zoo on COCO
 
